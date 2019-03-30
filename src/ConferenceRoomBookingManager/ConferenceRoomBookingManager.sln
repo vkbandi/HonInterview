@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConferenceRoomBookingManager.DataSource", "ConferenceRoomBookingManager.DataSource\ConferenceRoomBookingManager.DataSource.csproj", "{936BE6E1-2814-491E-B424-81D025D3596D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConferenceRoomBookingManager.Demo", "ConferenceRoomBookingManager.Demo\ConferenceRoomBookingManager.Demo.csproj", "{89740423-EC93-4532-917B-FB5778B55E04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{936BE6E1-2814-491E-B424-81D025D3596D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{936BE6E1-2814-491E-B424-81D025D3596D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{936BE6E1-2814-491E-B424-81D025D3596D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{936BE6E1-2814-491E-B424-81D025D3596D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89740423-EC93-4532-917B-FB5778B55E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89740423-EC93-4532-917B-FB5778B55E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89740423-EC93-4532-917B-FB5778B55E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89740423-EC93-4532-917B-FB5778B55E04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E93451D-6375-4480-9A10-04668F8C7809}
+	EndGlobalSection
+EndGlobal
