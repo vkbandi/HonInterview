@@ -1,12 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace ConferenceRoomBookingManager.DataSource
+namespace ConferenceRoomBookingManager.Models
 {
-    public class RoomBooking
+    public class Booking
     {
         public int Id { get; set; }
-
-        public Room BookedRoom { get; set; }
 
         public DateTime StartTime { get; set; }
 

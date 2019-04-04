@@ -8,10 +8,11 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>ConferenceRoomBookingManager.Demo</RootNamespace>
     <AssemblyName>ConferenceRoomBookingManager.Demo</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -34,6 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -45,6 +47,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoomFinder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -53,6 +56,10 @@
     <ProjectReference Include="..\ConferenceRoomBookingManager.DataSource\ConferenceRoomBookingManager.DataSource.csproj">
       <Project>{936be6e1-2814-491e-b424-81d025d3596d}</Project>
       <Name>ConferenceRoomBookingManager.DataSource</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ConferenceRoomBookingManager.Models\ConferenceRoomBookingManager.Models.csproj">
+      <Project>{51734800-7448-4171-9232-64C3AFA9045C}</Project>
+      <Name>ConferenceRoomBookingManager.Models</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

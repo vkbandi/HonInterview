@@ -1,8 +1,9 @@
-﻿using System;
+﻿using ConferenceRoomBookingManager.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConferenceRoomBookingManager
+namespace ConferenceRoomBookingManager.Models
 {
     public class Room
     {
@@ -16,5 +17,7 @@ namespace ConferenceRoomBookingManager
         /// Rooms with higher priority should be preferred
         /// </summary>
         public int BookingPriority { get; set; }
+
+        public List<Booking> Bookings { get; set; }
     }
 }
