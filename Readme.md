@@ -1,1 +1,1 @@
-A repository to store data generators for varied tasks
+Interview task
